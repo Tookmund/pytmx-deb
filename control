@@ -4,10 +4,14 @@ Section: python
 Priority: optional
 Build-Depends: dh-python, python-setuptools (>= 0.6b3), python-all (>= 2.6.6-3), debhelper (>= 9)
 Standards-Version: 3.9.6
+Homepage: https://github.com/bitcraft/PyTMX
 
 Package: python-pytmx
 Architecture: all
 Depends: ${misc:Depends}, ${python:Depends}
-Description: loads tiled tmx maps. for python 2.7 and 3.3+
- https://github.com/bitcraft/PyTMX
-
+Description: loads tiled tmx maps. for Python 2.7 and 3.3+
+ A map loader for python/pygame designed for games. It provides smart tile 
+ loading with a fast and efficient storage base. Not only does it correctly 
+ handle most Tiled object types, it also will load metadata for them so you 
+ can modify your maps and objects in Tiled instead of modifying your source 
+ code.
