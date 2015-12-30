@@ -1,0 +1,13 @@
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+
+Files: *
+Copyright: 2015 Leif Theden
+License: LGPL-3
+
+Files: debian/*
+Copyright: 2015 Jacob Adams
+License: LGPL-3
+
+License: LGPL-3	
+ In Debian the LGPL can be found at
+ /usr/share/common-licenses/LGPL-3
